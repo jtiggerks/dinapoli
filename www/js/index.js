@@ -53,7 +53,7 @@ var app = {
   
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.dnapollipizzaria.com.br/?idd='+device.uuid;
+    var urlfull= 'http://dnapollipizzaria.com.br/painel/login.php?i=i099090&idd='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)
