@@ -39,12 +39,12 @@ var app = {
         var jsonobject = JSON.parse(jsonstring);
         URL_APP = jsonobject.notification.payload.additionalData.foo;
 
-        var urlfull= 'http://www.dnapollipizzaria.com.br?p=1&u='+URL_APP+'&idd='+device.uuid;        
+        var urlfull= 'http://www.dnapollipizzaria.com.br/painel/index.php?page=pedidos&i=i099090&u='+URL_APP+'&idd='+device.uuid;        
   
         location.href = urlfull+device.uuid;
     };
 
-     window.plugins.OneSignal
+     window.plugins.OneSigna
         .startInit("afda1273-3807-445a-94ca-93bb4697388b")
         .handleNotificationOpened(notificationOpenedCallback)
         .endInit(); 
@@ -53,7 +53,7 @@ var app = {
   
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.dnapollipizzaria.com.br/painel/login.php?i=i099090&idd='+device.uuid;
+    var urlfull= 'http://www.dnapollipizzaria.com.br/painel/index.php?page=pedidos&i=i099090&idd='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)
