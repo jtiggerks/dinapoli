@@ -44,7 +44,7 @@ var app = {
         location.href = urlfull+device.uuid;
     };
 
-     window.plugins.OneSigna
+     window.plugins.OneSignal
         .startInit("afda1273-3807-445a-94ca-93bb4697388b")
         .handleNotificationOpened(notificationOpenedCallback)
         .endInit(); 
