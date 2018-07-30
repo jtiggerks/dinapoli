@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.dnapollipizzaria" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="br.com.kingburglanches" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>ForDelivery</name>
     <description>
        ForDelivery
     </description>
-    <author email="contato@dnapollipizzaria.com" href="http://www.dnapollipizzaria.com.br">
+    <author email="contato@kingburglanches.com" href="http://www.kingburglanches.com.br">
        Pedidos online  
     </author>
     <content src="index.html" />
@@ -63,12 +63,12 @@
     
  
     <access origin="*" />
-    <access origin="http://dnapollipizzaria.com.br/" />
-    <access origin="www.dnapollipizzaria.com.br" />
+    <access origin="http://kingburglanches.com.br/" />
+    <access origin="www.kingburglanches.com.br" />
 
     <allow-intent href="http://*/*" />
-    <allow-intent href="http://www.dnapollipizzaria.com.br" />
-    <allow-navigation href="http://www.dnapollipizzaria.com.br/*" />
+    <allow-intent href="http://www.kingburglanches.com.br" />
+    <allow-navigation href="http://www.kingburglanches.com.br/*" />
 
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
