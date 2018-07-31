@@ -39,7 +39,7 @@ var app = {
         var jsonobject = JSON.parse(jsonstring);
         URL_APP = jsonobject.notification.payload.additionalData.foo;
 
-        var urlfull= 'http://www.kingburglanches.com.br.com.br/painel/index.php?page=pedidos&i=i099091&u='+URL_APP+'&idd='+device.uuid;        
+        var urlfull= 'http://www.kingburglanches.com.br/painel/index.php?page=pedidos&i=i099091&u='+URL_APP+'&idd='+device.uuid;        
   
         location.href = urlfull+device.uuid;
     };
@@ -53,7 +53,7 @@ var app = {
   
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.kingburglanches.com.br.com.br/painel/index.php?page=pedidos&i=i099091&idd='+device.uuid;
+    var urlfull= 'http://www.kingburglanches.com.br/painel/index.php?page=pedidos&i=i099091&idd='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)
