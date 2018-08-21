@@ -29,11 +29,8 @@ var app = {
     },
     onDeviceReady: function() {
  
-    AdMob.createBanner({
-        adId : "ca-app-pub-6833525801886116/4063857030",
-        position : AdMob.AD_POSITION.BOTTOM_CENTER,
-        autoShow : true
-    });
+ 
+    
    
 
     var notificationOpenedCallback = function(jsonData)
@@ -42,26 +39,22 @@ var app = {
         var jsonobject = JSON.parse(jsonstring);
         URL_APP = jsonobject.notification.payload.additionalData.foo;
 
-        var urlfull= 'http://www.zemerson.com.br?p=1&u='+URL_APP+'&idd=';        
-   
-        alert(urlfull+device.uuid);
-
-       location.href = urlfull+device.uuid;
+        var urlfull= 'http://www.dnapollipizzaria.com.br/painel/index.php?page=pedidos&i=i099090&u='+URL_APP+'&idd='+device.uuid;        
+  
+        location.href = urlfull+device.uuid;
     };
 
      window.plugins.OneSignal
-        .startInit("0fc61fd5-1491-494f-ae92-e48f81d4e7b8")
+        .startInit("afda1273-3807-445a-94ca-93bb4697388b")
         .handleNotificationOpened(notificationOpenedCallback)
         .endInit(); 
 
 
- 
-    //AdMob.showBanner(AdMob.AD_POSITION.BOTTOM_CENTER);
-
+  
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.zemerson.com.br/?idd='+device.uuid;
-    location.href = urlfull
+    var urlfull= 'http://www.dnapollipizzaria.com.br/painel/index.php?page=pedidos&i=i099090&idd='+device.uuid;
+    location.href = urlfull;
 
     },receivedEvent: function(id)
     {

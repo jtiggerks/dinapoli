@@ -1,32 +1,39 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.limpoteste" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="br.com.dnapollipizzaria" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="Camera">
         <param name="browser-package" value="Camera" />
     </feature>
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-    <name>MeuTeste</name>
+    <name>ForDelivery</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+       ForDelivery
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="contato@dnapollipizzaria.com" href="http://www.dnapollipizzaria.com.br">
+       Pedidos online  
     </author>
     <content src="index.html" />
     <dependency id="cordova-plugin-googleplayservices" />
     <gap:plugin name="onesignal-cordova-plugin" source="npm" spec="^2.1.1" />
     <access origin="*" />
-    <access origin="http://www.zemerson.com.br/" />
-    <access origin="*.zemerson.com.br" />
+    <access origin="http://dnapollipizzaria.com.br/" />
+    <access origin="www.dnapollipizzaria.com.br" />
     <allow-intent href="http://*/*" />
-    <allow-intent href="http://www.zemerson.com.br" />
-    <allow-navigation href="http://www.zemerson.com.br/*" />
+    <allow-intent href="http://www.dnapollipizzaria.com.br" />
+    <allow-navigation href="http://www.dnapollipizzaria.com.br/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="FadeSplashScreen" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashScreen" value="splash" />
+    <preference name="SplashScreenDelay" value="7000" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="15" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="splash-screen-duration" value="3000" />
+    <preference name="auto-hide-splash-screen" value="true" />
 </widget>
