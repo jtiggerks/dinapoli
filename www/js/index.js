@@ -39,13 +39,13 @@ var app = {
         var jsonobject = JSON.parse(jsonstring);
         URL_APP = jsonobject.notification.payload.additionalData.foo;
 
-        var urlfull= 'http://www.kjagrillburger.com.br/painel/index.php?page=pedidos&i=i099092&u='+URL_APP+'&idd='+device.uuid;        
+        var urlfull= 'http://www.casadotomburgers.com.br/painel/index.php?page=pedidos&i=i199092&u='+URL_APP+'&idd='+device.uuid;        
   
         location.href = urlfull+device.uuid;
     };
 
      window.plugins.OneSignal
-        .startInit("27c4b5a1-5809-4cc2-9afe-7768f7d509d6")
+        .startInit("20f724a8-b8b8-4f4c-860e-7550af46daba")
         .handleNotificationOpened(notificationOpenedCallback)
         .endInit(); 
 
@@ -53,7 +53,7 @@ var app = {
   
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.kjagrillburger.com.br/painel/index.php?page=pedidos&i=i099092&idd='+device.uuid;
+    var urlfull= 'http://www.casadotomburgers.com.br/painel/index.php?page=pedidos&i=i199092&idd='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)
