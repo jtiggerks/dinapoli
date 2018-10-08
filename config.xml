@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.casadotomburgers" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="br.com.nadaolanches" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>ForDelivery</name>
     <description>
        ForDelivery
     </description>
-    <author email="contato@casadotomburgers.com.br" href="http://www.casadotomburgers.com.br">
+    <author email="contato@nadaolanches.com.br" href="http://www.nadaolanches.com.br">
        Pedidos online  
     </author>
     <content src="index.html" />
@@ -62,12 +62,12 @@
  
     
      <access origin="*" />
-    <access origin="http://casadotomburgers.com.br/" />
-    <access origin="www.casadotomburgers.com.br" />
+    <access origin="http://nadaolanches.com.br/" />
+    <access origin="www.nadaolanches.com.br" />
 
     <allow-intent href="http://*/*" />
-    <allow-intent href="http://www.casadotomburgers.com.br" />
-    <allow-navigation href="http://www.casadotomburgers.com.br/*" />
+    <allow-intent href="http://www.nadaolanches.com.br" />
+    <allow-navigation href="http://www.nadaolanches.com.br/*" />
 
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />

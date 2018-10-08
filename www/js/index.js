@@ -39,13 +39,13 @@ var app = {
         var jsonobject = JSON.parse(jsonstring);
         URL_APP = jsonobject.notification.payload.additionalData.foo;
 
-        var urlfull= 'http://www.casadotomburgers.com.br/painel/index.php?page=pedidos&i=i199092&u='+URL_APP+'&idd='+device.uuid;        
+        var urlfull= 'http://www.nadaolanches.com.br/painel/index.php?page=pedidos&i=i599092&u='+URL_APP+'&idd='+device.uuid;        
   
         location.href = urlfull+device.uuid;
     };
 
      window.plugins.OneSignal
-        .startInit("20f724a8-b8b8-4f4c-860e-7550af46daba")
+        .startInit("dbde1792-3495-4ca0-b80b-baeadb905bbc")
         .handleNotificationOpened(notificationOpenedCallback)
         .endInit(); 
 
@@ -53,7 +53,7 @@ var app = {
   
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.casadotomburgers.com.br/painel/index.php?page=pedidos&i=i199092&idd='+device.uuid;
+    var urlfull= 'http://www.nadaolanches.com.br/painel/index.php?page=pedidos&i=i599092&idd='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)
