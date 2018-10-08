@@ -36,7 +36,8 @@
  
     <dependency id="cordova-plugin-googleplayservices"/>
     <gap:plugin name="onesignal-cordova-plugin" spec="^2.1.1" source="npm" />
-    <preference name="android-minSdkVersion" value="26" />  
+    <preference name="android-minSdkVersion" value="20" />
+    <preference name="android-targetSdkVersion" value="26" />
 
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
