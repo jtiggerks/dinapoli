@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.fordelivery2" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Club Hamburgueria</name>
+<widget id="br.com.fordelivery" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>ForDelivery</name>
     <description>
-      Pedidos Online na Club Hamburgueria. Promissão - SP
+       Painel administrativo. Aplicativo de pedidos online.
     </description>
     <author email="contato@fordelivery.com.br" href="http://www.fordelivery.com.br">
        Pedidos online  
@@ -67,7 +67,7 @@
 
     <allow-intent href="http://*/*" />
     <allow-intent href="http://www.fordelivery.com.br" />
-    <allow-navigation href="http://www.fordelivery.com.br/clubhamburgueria" />
+    <allow-navigation href="http://www.fordelivery.com.br/*" />
 
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
