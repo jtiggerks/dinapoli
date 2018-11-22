@@ -39,13 +39,13 @@ var app = {
         var jsonobject = JSON.parse(jsonstring);
         URL_APP = jsonobject.notification.payload.additionalData.foo;
 
-        var urlfull= 'http://www.chelanches.com.br/painel/index.php?page=pedidos&i=iiii767&u='+URL_APP+'&idd='+device.uuid;        
+        var urlfull= 'http://www.fordelivery.com.br/painel/index.php?page=pedidos&i=emp16&u='+URL_APP+'&idd='+device.uuid;        
   
         location.href = urlfull+device.uuid;
     };
 
      window.plugins.OneSignal
-        .startInit("632ba9d7-8866-4d5c-b749-231dacd7af26")
+        .startInit("06150ee1-6046-4a91-b027-ee3d820d9402")
         .handleNotificationOpened(notificationOpenedCallback)
         .endInit(); 
 
@@ -53,7 +53,7 @@ var app = {
   
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.chelanches.com.br/painel/index.php?page=pedidos&i=iiii767&idd='+device.uuid;
+    var urlfull= 'http://www.fordelivery.com.br/painel/index.php?page=pedidos&i=emp16&idd='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)
