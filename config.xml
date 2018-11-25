@@ -66,7 +66,7 @@
     <access origin="www.fordelivery.com.br" />
 
     <allow-intent href="http://*/*" />
-    <allow-intent href="http://www.fordelivery.com.br" />
+  <allow-intent href="http://www.fordelivery.com.br" />
     <allow-navigation href="http://www.fordelivery.com.br/*" />
 
     <allow-intent href="https://*/*" />
