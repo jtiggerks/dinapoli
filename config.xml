@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.fordelivery" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>ForDelivery</name>
+<widget id="br.com.lanchoneteautaddeiwdburger" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>lanchoneteautaddeiwdburger</name>
     <description>
        Painel administrativo. Aplicativo de pedidos online.
     </description>
-    <author email="contato@fordelivery.com.br" href="http://www.fordelivery.com.br">
+    <author email="contato@lanchoneteautaddeiwdburger.com.br" href="http://www.lanchoneteautaddeiwdburger.com.br">
        Pedidos online  
     </author>
     <content src="index.html" />
@@ -62,12 +62,12 @@
  
     
      <access origin="*" />
-    <access origin="http://fordelivery.com.br/" />
-    <access origin="www.fordelivery.com.br" />
+    <access origin="http://lanchoneteautaddeiwdburger.com.br/" />
+    <access origin="www.lanchoneteautaddeiwdburger.com.br" />
 
     <allow-intent href="http://*/*" />
-    <allow-intent href="http://www.fordelivery.com.br" />
-    <allow-navigation href="http://www.fordelivery.com.br/*" />
+    <allow-intent href="http://www.lanchoneteautaddeiwdburger.com.br" />
+    <allow-navigation href="http://www.lanchoneteautaddeiwdburger.com.br/*" />
 
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
