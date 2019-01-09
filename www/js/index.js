@@ -27,12 +27,24 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady, false); 
  
     },
+
     onDeviceReady: function()
     {    
         
         app.receivedEvent('deviceready');
         var urlfull= 'http://www.noburger.com.br';
         location.href = urlfull;
+
+    onDeviceReady: function() {
+ 
+ 
+  
+  
+    app.receivedEvent('deviceready');
+
+    var urlfull= 'http://www.fordelivery.com.br/clubhamburgueria';
+    location.href = urlfull;
+
 
     },receivedEvent: function(id)
     {

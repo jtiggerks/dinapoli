@@ -3,6 +3,10 @@
     <name>No Lanches</name>
     <description>
       Aplicativo de pedidos online. No Lanches Guaiçara
+<widget id="br.com.fordelivery2" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>ForDelivery</name>
+    <description>
+        Pedidos Online na Club Hamburgueria. Promissão - SP
     </description>
     <author email="contato@noburger.com.br" href="http://www.noburger.com.br">
        ForDelivery 
