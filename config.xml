@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.lanchoneteautaddeiwdburger" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>lanchoneteautaddeiwdburger</name>
+<widget id="br.com.noburger" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>No Lanches</name>
     <description>
-       Painel administrativo. Aplicativo de pedidos online.
+      Aplicativo de pedidos online. No Lanches Guaiçara
     </description>
-    <author email="contato@lanchoneteautaddeiwdburger.com.br" href="http://www.lanchoneteautaddeiwdburger.com.br">
-       Pedidos online  
+    <author email="contato@noburger.com.br" href="http://www.noburger.com.br">
+       ForDelivery 
     </author>
     <content src="index.html" />
 
@@ -62,12 +62,12 @@
  
     
      <access origin="*" />
-    <access origin="http://lanchoneteautaddeiwdburger.com.br/" />
-    <access origin="www.lanchoneteautaddeiwdburger.com.br" />
+    <access origin="http://noburger.com.br/" />
+    <access origin="www.noburger.com.br" />
 
     <allow-intent href="http://*/*" />
-    <allow-intent href="http://www.lanchoneteautaddeiwdburger.com.br" />
-    <allow-navigation href="http://www.lanchoneteautaddeiwdburger.com.br/*" />
+    <allow-intent href="http://www.noburger.com.br" />
+    <allow-navigation href="http://www.noburger.com.br/*" />
 
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
