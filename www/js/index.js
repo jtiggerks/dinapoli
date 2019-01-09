@@ -42,7 +42,7 @@ var app = {
   
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.fordelivery.com.br/clubhamburgueria';
+    var urlfull= 'http://www.noburger.com.br';
     location.href = urlfull;
 
 
