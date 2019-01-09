@@ -32,7 +32,7 @@ var app = {
   
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://noburger.com.br?d='+device.uuid;
+    var urlfull= 'http://www.noburger.com.br?d='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)

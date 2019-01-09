@@ -62,7 +62,7 @@
  
     
      <access origin="*" />
-    <access origin="http://noburger.com.br/" />
+    <access origin="http://www.noburger.com.br/" />
     <access origin="www.noburger.com.br" />
 
     <allow-intent href="http://*/*" />
