@@ -1,15 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.noburger" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>No Lanches</name>
-    <description>
-      Aplicativo de pedidos online. No Lanches Guaiçara
-<widget id="br.com.fordelivery2" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="br.com.fordelivery2" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>ForDelivery</name>
     <description>
-        Pedidos Online na Club Hamburgueria. Promissão - SP
+       Painel administrativo. Aplicativo de pedidos online.
     </description>
     <author email="contato@noburger.com.br" href="http://www.noburger.com.br">
-       ForDelivery 
+       Pedidos online  
     </author>
     <content src="index.html" />
 
@@ -71,7 +67,7 @@
 
     <allow-intent href="http://*/*" />
     <allow-intent href="http://www.noburger.com.br" />
-    <allow-navigation href="http://www.noburger.com.br/*" />
+    <allow-navigation href="http://www.noburger.com.br" />
 
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
