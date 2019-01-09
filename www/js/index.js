@@ -27,24 +27,13 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady, false); 
  
     },
+    onDeviceReady: function() { 
 
-    onDeviceReady: function()
-    {    
-        
-        app.receivedEvent('deviceready');
-        var urlfull= 'http://www.noburger.com.br';
-        location.href = urlfull;
-
-    onDeviceReady: function() {
- 
- 
-  
   
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.noburger.com.br';
+    var urlfull= 'http://noburger.com.br?d='+device.uuid;
     location.href = urlfull;
-
 
     },receivedEvent: function(id)
     {
