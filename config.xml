@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.fordelivery19go" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="br.com.fordelivery.faceburguer" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Faceburguer</name>
     <description>
        Faceburguer Lanche's Pirajui
@@ -62,12 +62,12 @@
  
     
      <access origin="*" />
-    <access origin="http://www.fordelivery.com.br/" />
-    <access origin="www.fordelivery.com.br" />
+    <access origin="http://faceburguer.fordelivery.com.br/" />
+    <access origin="faceburguer.fordelivery.com.br" />
 
     <allow-intent href="http://*/*" />
-    <allow-intent href="http://www.fordelivery.com.br" />
-    <allow-navigation href="http://www.fordelivery.com.br" />
+    <allow-intent href="http://faceburguer.fordelivery.com.br" />
+    <allow-navigation href="http://faceburguer.fordelivery.com.br" />
 
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />

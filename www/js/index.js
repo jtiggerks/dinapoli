@@ -32,7 +32,7 @@ var app = {
   
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.fordelivery.com.br/index.php?empresa=faceburguer&d='+device.uuid;
+    var urlfull= 'http://faceburguer.fordelivery.com.br?d='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)
