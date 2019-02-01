@@ -32,7 +32,7 @@ var app = {
   
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.noburger.com.br?d='+device.uuid;
+    var urlfull= 'http://www.fordelivery.com.br/mesa.php?empresa=faceburguer&d='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)
