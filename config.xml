@@ -2,10 +2,10 @@
 <widget id="br.com.fordelivery19" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Faceburguer</name>
     <description>
-       Aplicativo de pedidos online.
+       Faceburguer Lanche's Pirajui
     </description>
     <author email="contato@fordelivery.com.br" href="http://www.fordelivery.com.br">
-       Pedidos online  
+       Pedidos online @faceburguerpirajui  
     </author>
     <content src="index.html" />
 
