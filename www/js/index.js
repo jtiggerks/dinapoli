@@ -16,8 +16,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-var app = {
-
+var app = 
+{
     initialize: function()
     {
         this.bindEvents(); 
@@ -29,16 +29,14 @@ var app = {
     },
     onDeviceReady: function() { 
 
-  
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://faceburguer.fordelivery.com.br?d='+device.uuid;
+    var urlfull= 'http://www.famintodelivery.fordelivery.com.br?d='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)
     {
-
-       
+      
     }
 };
 

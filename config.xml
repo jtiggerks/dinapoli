@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.fordelivery.faceburguer" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Faceburguer</name>
+<widget id="br.com.fordelivery.famintodelivery" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Faminto Delivery da Serra</name>
     <description>
-       Faceburguer Lanche's Pirajui
+       Faminto Delivery da Serra
     </description>
     <author email="contato@fordelivery.com.br" href="http://www.fordelivery.com.br">
-       Pedidos online @faceburguerpirajui  
+       Pedidos online @famintodelivery  
     </author>
     <content src="index.html" />
-
+    
     <preference name="FadeSplashScreen" value="false"/>
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="SplashScreen" value="splash" />
@@ -62,12 +62,12 @@
  
     
      <access origin="*" />
-    <access origin="http://faceburguer.fordelivery.com.br/" />
-    <access origin="faceburguer.fordelivery.com.br" />
+    <access origin="http://www.famintodelivery.fordelivery.com.br/" />
+    <access origin="famintodelivery.fordelivery.com.br" />
 
     <allow-intent href="http://*/*" />
-    <allow-intent href="http://faceburguer.fordelivery.com.br" />
-    <allow-navigation href="http://faceburguer.fordelivery.com.br" />
+    <allow-intent href="http://www.famintodelivery.fordelivery.com.br/" />
+    <allow-navigation href="http://www.famintodelivery.fordelivery.com.br/" />
 
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
