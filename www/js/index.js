@@ -29,9 +29,7 @@ var app = {
     },
     onDeviceReady: function() {
  
- 
-    
-   
+  
 
     var notificationOpenedCallback = function(jsonData)
     {          
@@ -39,13 +37,13 @@ var app = {
         var jsonobject = JSON.parse(jsonstring);
         URL_APP = jsonobject.notification.payload.additionalData.foo;
 
-        var urlfull= 'http://www.fordelivery.com.br/painel/index.php?page=pedidos&i=emp16&u='+URL_APP+'&idd='+device.uuid;        
+        var urlfull= 'http://www.fordelivery.com.br/painel/index.php?page=pedidos&i=emp25&u='+URL_APP+'&idd='+device.uuid;        
   
         location.href = urlfull+device.uuid;
     };
-
-     window.plugins.OneSignal
-        .startInit("06150ee1-6046-4a91-b027-ee3d820d9402")
+ 
+   window.plugins.OneSignal
+        .startInit("038e0d65-6ab6-4393-9144-a4fa0ecdad75")
         .handleNotificationOpened(notificationOpenedCallback)
         .endInit(); 
 
@@ -53,7 +51,7 @@ var app = {
   
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.fordelivery.com.br/painel/index.php?page=pedidos&i=emp16&idd='+device.uuid;
+    var urlfull= 'http://www.fordelivery.com.br/painel/index.php?page=pedidos&i=emp25&idd='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)
