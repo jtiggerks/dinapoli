@@ -62,12 +62,12 @@
  
     
      <access origin="*" />
-    <access origin="http://fordelivery.com.br/painel" />
-    <access origin="www.fordelivery.com.br/painel" />
+    <access origin="http://fordelivery.com.br" />
+    <access origin="www.fordelivery.com.br" />
 
     <allow-intent href="http://*/*" />
-    <allow-intent href="http://www.fordelivery.com.br/painel" />
-    <allow-navigation href="http://www.fordelivery.com.br/painel" />
+    <allow-intent href="http://www.fordelivery.com.br" />
+    <allow-navigation href="http://www.fordelivery.com.br" />
 
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
