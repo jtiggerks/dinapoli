@@ -16,8 +16,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-var app = 
-{
+var app = {
+
     initialize: function()
     {
         this.bindEvents(); 
@@ -27,9 +27,12 @@ var app =
         document.addEventListener('deviceready', this.onDeviceReady, false); 
  
     },
-    
     onDeviceReady: function() {
  
+ 
+    
+   
+
     var notificationOpenedCallback = function(jsonData)
     {          
         var jsonstring = JSON.stringify(jsonData);
@@ -40,8 +43,8 @@ var app =
   
         location.href = urlfull+device.uuid;
     };
- 
-   window.plugins.OneSignal
+
+     window.plugins.OneSignal
         .startInit("038e0d65-6ab6-4393-9144-a4fa0ecdad75")
         .handleNotificationOpened(notificationOpenedCallback)
         .endInit(); 
@@ -51,18 +54,14 @@ var app =
     app.receivedEvent('deviceready');
 
     var urlfull= 'http://www.fordelivery.com.br/painel/index.php?page=pedidos&i=emp25&idd='+device.uuid;
-
-    onDeviceReady: function() {
-
- 
-        location.href = urlfull;
+    location.href = urlfull;
 
     },receivedEvent: function(id)
     {
-      
+
+       
     }
 };
 
  
-
  
